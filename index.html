@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <style> 
+    p,
+    h3 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-template-rows: 4, 1vh;
+        grid-template-areas:
+            "ccs ccs"
+            "pic detail"
+            "name motto";
+        gap: 5px;
+    }
+
+.container div {
+        padding: 10px;
+        border: 1px solid #000
+
+    }
+
+    .ccs {
+        background-color: rgba(150, 30, 190, 0.91);
+    }
+
+    .pic {
+        background-color: rgb(50, 55, 180);
+    }
+
+    .detail {
+        background: rgb(240, 130, 10);
+    }
+
+    .name {
+        background-color: rgb(145, 175, 8);
+    }
+
+    .motto {
+        background-color: rgb(67, 185, 8);
+    }
+
+
+.ccs {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+    }
+
+.pic {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    }
+
+.detail {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    }
+
+.name {
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+    }
+
+.motto {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    }
+
+
+    </style>
+</head>
+<body>
+    
+        
+        <div class="container">
+
+            <div class="ccs">
+                <center><h1>College of Computer Studies</h1></center>
+        </div>
+
+
+            <div class="pic">
+                <img src="Kenneth.jpg" width="270" height="320">
+        </div>
+
+
+            <div class="detail">
+                <h3>Hello everyone, I'm Kenneth Chan, a 20-year old living in the vibrant community of Brgy. Guinpana-an, Moises Padilla, Negros Occidental. My passions are playing badminton, reading a good book, gardening, and enjoying online gaming sessions. Currently, I'm dedicated to my academic journey, pursuing a Bachelor of Science in Information Technology at Central Philippine State University. I chose Information Technology as my field of study it's because I have a deep fascination for technology and its ever-evolving nature. I find joy in exploring the world of computers, software, and digital systems. Also IT industry offers a vast and dynamic landscape of opportunities. It's not just about coding; it encompasses areas like cybersecurity, data analysis, and network administration. The demand for IT professionals is consistently high. I see it as a chance to make a meaningful impact by solving real-world problems through technology.</h3>
+        </div>
+
+            <div class="name">
+                <center><h1>Kenneth G. Chan</h1></center>
+            
+         </div>
+
+
+            <div class="motto">
+                <h3>My motto in life is "Work hard in silence and let success make the noise," emphasizing the value of dedication and the power of achievements to speak for themselves.</h3>
+        </div>
+
+
+</body>
+</html>
